@@ -1,0 +1,4 @@
+db.getCollection('produtos').insertMany([{"id":"1", "desc":"agua mineral"},{"id":"2", "desc":"skol"},{"id":"3", "desc":"coca cola"},{"id":"4", "desc":"sprite"},{"id":"5", "desc":"heineken"}]);
+
+
+db.getCollection('pessoas').insertMany([{"id":"1", "nome":"jose", "idade":"18"},{"id":"2", "nome":"carlos", "idade":"15"},{"id":"3", "nome":"julio", "idade":"28"},{"id":"4", "nome":"andre", "idade":"38"},{"id":"5", "nome":"fabio", "idade":"13"}]);
